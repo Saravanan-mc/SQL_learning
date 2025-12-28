@@ -49,3 +49,8 @@ SELECT AVG(salary) AS avg_salary FROM employees;
 SELECT MAX(salary) AS highest_salary FROM employees;
 
 SELECT MIN(salary) AS lowest_salary FROM employees;
+
+SELECT department, GROUP_CONCAT(emp_name) AS employees
+FROM employees
+GROUP BY department;
+
