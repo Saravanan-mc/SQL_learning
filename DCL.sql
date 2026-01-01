@@ -1,4 +1,4 @@
-CREATE TABLE student (
+CREATE TABLE student_dml (
     student_id INT,
     student_name VARCHAR(50),
     age INT,
